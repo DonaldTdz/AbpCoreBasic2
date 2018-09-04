@@ -12,7 +12,8 @@
     <RootNamespace>AbpCoreBasic</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Localization\SourceFiles\*.xml" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
+    <EmbeddedResource Include="Localization\SourceFiles\AbpCoreBasic-zh-Hans.xml" />
+    <EmbeddedResource Include="Localization\SourceFiles\AbpCoreBasic.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Abp.AutoMapper" Version="3.8.2" />

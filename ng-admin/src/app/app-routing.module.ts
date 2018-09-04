@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppRouteGuard } from '@shared/auth/auth-route-guard';
 import { HomeComponent } from '@app/home/home.component';
-import { AppComponent } from '@app/app.component';
+//import { AppComponent } from '@app/app.component';
 import { AboutComponent } from '@app/about/about.component';
 import { TenantsComponent } from '@app/tenants/tenants.component';
 import { RolesComponent } from '@app/roles/roles.component';
 import { UsersComponent } from '@app/users/users.component';
+import { DefaultLayoutComponent } from 'layout/default-layout.component';
 const routes: Routes = [
   {
     path: 'app',
-    component: AppComponent,
+    component: DefaultLayoutComponent,
     canActivate: [AppRouteGuard],
     canActivateChild: [AppRouteGuard],
     children: [
@@ -51,4 +52,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

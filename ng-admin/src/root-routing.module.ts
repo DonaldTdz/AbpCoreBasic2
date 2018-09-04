@@ -8,6 +8,11 @@ const routes: Routes = [
     loadChildren: 'account/account.module#AccountModule', // Lazy load account module
     data: { preload: true },
   },
+  {
+    path: 'basic',
+    loadChildren: 'basic-data/basic-data.module#BasicDataModule', // Lazy load account module
+    data: { preload: true },
+  },
 ];
 
 @NgModule({
@@ -15,4 +20,4 @@ const routes: Routes = [
   exports: [RouterModule],
   providers: [],
 })
-export class RootRoutingModule {}
+export class RootRoutingModule { }

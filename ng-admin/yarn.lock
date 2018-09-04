@@ -281,40 +281,40 @@
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@antv/util/-/util-1.0.8.tgz#96755c0bd18856eecdc44b072c2b080f4b798094"
 
-"@delon/abc@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/abc/-/abc-1.1.3.tgz#9fad0123d01783ddf66b92216d39eb0d1aec8f53"
+"@delon/abc@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/abc/-/abc-1.3.2.tgz#746a1f06c15334749549590cd738d7c2e3184f3e"
   dependencies:
     file-saver "^1.3.3"
     ngx-countdown "^3.0.0"
 
-"@delon/acl@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/acl/-/acl-1.1.3.tgz#3a7f8a810edbb8db1db92ca164ccc40e822dfc72"
+"@delon/acl@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/acl/-/acl-1.3.2.tgz#907d7e9807d268155cc440cc488b1870f281a35b"
 
-"@delon/auth@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/auth/-/auth-1.1.3.tgz#4440140feff1ad48ad62610fbc4bdbc827dd4989"
+"@delon/auth@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/auth/-/auth-1.3.2.tgz#1b073c0f6352aaec8d84604b05ae91573648a58e"
 
-"@delon/cache@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/cache/-/cache-1.1.3.tgz#bcde1534b235f5d88619c510865b8fa89283dd3b"
+"@delon/cache@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/cache/-/cache-1.3.2.tgz#a703fafe73c2db9d88bf1c033dba989bb5763d51"
 
-"@delon/form@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/form/-/form-1.1.3.tgz#79341874c4bafe24be1af3d41a35d942edb01994"
+"@delon/form@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/form/-/form-1.3.2.tgz#8f93983f6ba4d6a463402f479659578aad88ab46"
 
-"@delon/mock@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/mock/-/mock-1.1.3.tgz#57df71e3700aa567a05c8bbb2c0e67e20f23c5db"
+"@delon/mock@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/mock/-/mock-1.3.2.tgz#cdfb0338d708d714c0ee28e01a324ca810dfd67d"
 
-"@delon/theme@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/theme/-/theme-1.1.3.tgz#5c6e2c6cfd7d37de99216d1fe6ad556f920f2f84"
+"@delon/theme@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/theme/-/theme-1.3.2.tgz#e1f195c51a2dc19bb0bc7463b9bcc3e0a3734adc"
 
-"@delon/util@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@delon/util/-/util-1.1.3.tgz#93159fce38aae5fb7f2bb81712f51583b236762a"
+"@delon/util@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@delon/util/-/util-1.3.2.tgz#0e51206f34ed9a20c38886ca8b35573ec9a10a9f"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -553,13 +553,13 @@ abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
 
-abp-ng2-module@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/abp-ng2-module/-/abp-ng2-module-3.1.0.tgz#9c82ca816d7d02fe0fb1ef474fcd27dbacd41fd9"
+abp-ng2-module@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/abp-ng2-module/-/abp-ng2-module-3.2.1.tgz#61edf440e085056680f7ccaa9efb88cc7837f6ae"
 
-abp-web-resources@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/abp-web-resources/-/abp-web-resources-3.7.0.tgz#eaf35870765421c6fd989b008e2d0eb855d3d266"
+abp-web-resources@^3.8.2:
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/abp-web-resources/-/abp-web-resources-3.8.4.tgz#72b2590ff6524c7ca738046da045cde8f498a0cf"
 
 abs-svg-path@~0.1.1:
   version "0.1.1"
@@ -3513,7 +3513,6 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-
 hosted-git-info@^2.1.4, hosted-git-info@^2.6.0:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
@@ -5143,13 +5142,13 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
-ng-alain@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/ng-alain/-/ng-alain-1.1.3.tgz#b50fc2f91a5119b090ba45f9c180862c42f04f62"
+ng-alain@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/ng-alain/-/ng-alain-1.3.2.tgz#07f27d87c6bb7b2c528c995f4d8ec4dd1c2f1307"
 
-ng-zorro-antd@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ng-zorro-antd/-/ng-zorro-antd-1.1.1.tgz#d0653fbce09808c27c4294d299b8c67d04250c17"
+ng-zorro-antd@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/ng-zorro-antd/-/ng-zorro-antd-1.4.0.tgz#c618542c2922a35b2b14801743949b3c92d85fca"
   dependencies:
     "@angular/cdk" "^6.0.0"
     date-fns "^1.29.0"
